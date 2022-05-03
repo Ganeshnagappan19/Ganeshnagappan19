@@ -1,0 +1,6 @@
+INFO    2022-05-03 12:18:06,706 [main] ramzan.Biryani  - chicken biryani
+WARN    2022-05-03 12:18:06,707 [main] ramzan.Biryani  - biryani yet to empty
+ERROR   2022-05-03 12:18:06,707 [main] ramzan.Biryani  - biryani empty
+INFO    2022-05-03 12:18:35,436 [main] ramzan.Biryani  - chicken biryani
+WARN    2022-05-03 12:18:35,437 [main] ramzan.Biryani  - biryani yet to empty
+ERROR   2022-05-03 12:18:35,437 [main] ramzan.Biryani  - biryani empty
