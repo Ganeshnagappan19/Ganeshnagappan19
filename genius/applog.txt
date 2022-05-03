@@ -1,0 +1,2 @@
+INFO    2022-05-03 17:39:37,066 [main] geniuss.Magic  - i am not a magicianMagician's Paradise
+INFO    2022-05-03 17:40:08,035 [main] geniuss.Magic  - i am not a magicianMagician's Paradise
