@@ -28,7 +28,7 @@ public class Interuptedthread {
 			}
 			System.out.println("loader loads the gun...........");
 			flag=true;
-			//notify();
+			notify();
 		}
 		synchronized public void shoot() {
 			if(!flag) {
