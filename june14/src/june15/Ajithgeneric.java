@@ -8,6 +8,6 @@ class TestGenerics1{
 public static void main(String args[]){
 Ajithgeneric<Integer> m=new Ajithgeneric<Integer>();
 m.add(2);
-//m.add("vivek");//Compile time error
+m.add("vivek");//Compile time error
 System.out.println(m.get());
 }}
