@@ -29,7 +29,7 @@ String name;
 	{		this.name=name;
 	}
 
-	public String toString() {
+	public String  tostring() {
 		return this.name;
 	}
 	
