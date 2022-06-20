@@ -26,7 +26,7 @@ public class Linkedlistdemo{
 	//hs.forEach(new MyConsumer());
 	//hs.forEach((s)->{System.out.println(s);});
 	//hs.forEach(System.out::println);
-	hs.forEach(ColDemo3::print);
+	//hs.forEach(C::print);
 	
 	Iterator<String> it=hs.iterator();
 	while(it.hasNext()) {
