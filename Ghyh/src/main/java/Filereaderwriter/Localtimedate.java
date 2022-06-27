@@ -5,7 +5,7 @@ package Filereaderwriter;
 
 public class Localtimedate { 
 	    public static void main(String[] args) {  
-	        LocalDateTi now = LocalDateTime.now();  
+	        LocalDateTime now = LocalDateTime.now();  
 	        System.out.println("Before Formatting: " + now);  
 	        DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");  
 	        String formatDateTime = now.format(format);  
