@@ -28,4 +28,4 @@ public class Connectstatement2 {
 			System.out.println("No of rows updated...:"+noofrowschanged);
 		}
 	}
-}
+
