@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Handling form Data</title>
+<script >
+function chkfrm()
+{
+    var x=document.card.name.value;
+    if(X.length==0)
+        {
+        alert("Please Enter Name\n");
+        return false;
+        }
+    else
+        {
+        return true;
+        }
+}
+</script>
+</head>
+<body>
+<form name="card" method="post" action="Servelt2" onsubmit="return chkfrm();">
+
+<center>
+<b> Enter your name :</b>
+<input type="text" Name="name">
+<input type ="submit">
+</center>
+</body>
+</html>
