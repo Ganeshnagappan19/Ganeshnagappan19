@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Strategy2 {
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
+	
 		//BadFan shaitan=new BadFan();
 		GoodFan khaitan=new GoodFan();
 		while(true) {
@@ -14,22 +15,12 @@ public class Strategy2 {
 		}
 	}
 }
-/*
- * 1. Convert the condition to classes
- * 2. Group them under a hierarchy - Inheritance
- * 3. Create a Association between the using class and the hierarchy class - association
- *
- * Design Patterns - Strategy Pattern
- * A strategy to implements openclose principle
- * A strategy to remove if-else-condition
- */
-/*
- * Paint brush followed uni directional relationship
- * Fan will follow bi-directional relationship
- */
+
+
 class GoodFan{
 	State state=new SwitchOffState();//association
-	public void pull() {
+	public void pull()
+	{
 		state.pull(this);
 	}
 }
@@ -37,10 +28,14 @@ abstract class State{
 	public abstract void pull(GoodFan fan);// {}
 }
 class SwitchOffState extends State{// condition class grouped under a category
-	public void pull(GoodFan fan) {
-		System.out.println("Switch on state....");
-		fan.state=new SwitchOnState();
-	}
+
+@Override
+public void pull(GoodFan fan)
+{
+System.out.println("switch on ");	
+fan.state=new SwitchOnState();
+
+}
 }
 class SwitchOnState extends State{
 	@Override
@@ -85,3 +80,16 @@ class BadFan{
 		
 	}
 }
+/*
+ * 1. Convert the condition to classes
+ * 2. Group them under a hierarchy - Inheritance
+ * 3. Create a Association between the using class and the hierarchy class - association
+ *
+ * Design Patterns - Strategy Pattern
+ * A strategy to implements openclose principle
+ * A strategy to remove if-else-condition
+ */
+/*
+ * Paint brush followed uni directional relationship
+ * Fan will follow bi-directional relationship
+ */
