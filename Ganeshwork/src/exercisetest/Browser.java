@@ -1,8 +1,17 @@
 package exercisetest;
+import exercisetest.Command;
+import exercisetest.DummyCommand;
+import exercisetest.FatherNewsChannelCommand;
+import exercisetest.MotherOldMovieCommand;
+import exercisetest.MotherSerialCommand;
+import exercisetest.NetFlix;
+import exercisetest.Remote;
+import exercisetest.SetTopBox;
+import exercisetest.SoundSystem;
+import exercisetest.Tv;
+import exercisetest.UniversalRemote;
 
-	
-
-public class Browser {
+public class Browser{
 		public static void main(String[] args) {
 			UniversalRemote.useRemote();
 		}
@@ -132,8 +141,6 @@ public class Browser {
 			command[slot].execute();
 		}
 	}
-
-
 
 
 

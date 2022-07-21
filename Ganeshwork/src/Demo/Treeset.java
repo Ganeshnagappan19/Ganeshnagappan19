@@ -9,14 +9,14 @@ public class Treeset {
 	    {
 	       
 	        TreeSet<Integer> treeset = new TreeSet<Integer>();
-	  
+	        TreeSet<Integer> comp = (TreeSet<Integer>)treeset.descendingSet();
 	      
-	        treeset.add(20);
+	        treeset.add(79);
 	        treeset.add(24);
 	        System.out.println("tree"
 	                           + treeset);
 	  
-	        Comparator comp = treeset.comparator();
+	     //   Comparator comp = treeset.comparator();
 	        System.out.println(" value is: "+ comp);
 	    }
 }
